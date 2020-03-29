@@ -16,17 +16,13 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from .view import home_page,cart_page,login_page,signup_page,contact_page
+from .view import home_page,cart_page
 
 urlpatterns = [
 	url(r'^$', home_page),
 
 	url(r'^cart/$', cart_page),
 	
-	url(r'^login/$', login_page),
-	url(r'^signup/$', signup_page),
-
-	url(r'^contact/$', contact_page),
     
     url(r'^admin/', admin.site.urls),
 ]
