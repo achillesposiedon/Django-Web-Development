@@ -1,0 +1,7 @@
+Steps involved in Optical character recognition:
+    Preprocessing of the Image
+    Text Localization
+    Character Segmentation
+    Character Recognition
+    Post Processing
+
